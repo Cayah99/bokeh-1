@@ -1,4 +1,4 @@
-from os.path import join, dirname
+from os.path import join, dirname df = pd.read_csv(join(dirname(__file__), 'data/2015_weather.csv'))
 import datetime
 
 import pandas as pd
